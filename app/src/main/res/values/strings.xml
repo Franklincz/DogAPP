@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DogAPP</string>
+    <string name="a">usuario</string>
+    <string name="usuario">usuario</string>
+    <string name="Passwoord">Password</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="Registrar">Registrar</string>
+    <string name="olvid_pass">¿Olvidaste tu contraseña?</string>
+    <string name="titulo">Nuestros amigos:</string>
+</resources>

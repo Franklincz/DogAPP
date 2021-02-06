@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingTop="15dp"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/logodog" />
+
+    <EditText
+        android:id="@+id/textuser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/name_user_3716"
+
+        android:inputType="textPersonName"
+        android:hint="@string/usuario"
+        android:layout_weight="9"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edt_style1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/textpassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/passwordpe"
+
+        android:inputType="textPassword"
+        android:hint="@string/Passwoord"
+        android:layout_weight="9"
+        android:padding="10dp"
+        android:background="@drawable/edt_style1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+
+        android:text="@string/Ingresar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_style"
+        android:onClick="onclick"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Registrar"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:gravity="center|top"
+        >
+        <ImageButton
+            android:id="@+id/imageButtonFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#5208E6FA"
+            app:srcCompat="@drawable/facebook_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButtonGoogle"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:background="#5208E6FA"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/googleepe" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewRecordarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/olvid_pass"
+        android:layout_margin="25dp"
+        android:gravity="center"/>
+
+</LinearLayout>
